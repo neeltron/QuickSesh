@@ -1,13 +1,21 @@
 <html>
   <head>
     <title>
-      Flask Starter Kit
+      EduConnect
     </title>
   </head>
   <body>
     <form method = "post" action = "{{ url_for("index")}}">
       <input type = "text" name = "title" placeholder = "Title"></input>
       <button>Submit</button>
+      <br>
+      <br>You can join any of the study sessions here:
+      <ul>
+      {% for i in obj: %}
+      <li><a href = https://meet.jit.si/{{ obj[i] }}>{{obj[i]}}</a></li>
+	    {% endfor %}
+      </ul>
+      
     </form>
   </body>
 </html>

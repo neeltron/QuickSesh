@@ -16,10 +16,10 @@ def index():
   if request.method == "POST":
     id = random.randint(0, 1000)
     title = request.form.get('title')
-    db[str(id)] = 'https://meet.jit.si/' + title
+    db[str(id)] = title
     print(db[str(id)])
-    return redirect(db[str(id)])
-  return render_template('index.html')
+    return redirect('https://meet.jit.si/'+db[str(id)])
+  return render_template('index.html', obj = db)
 
 
 
