@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, make_response, redirect, url_for
+from flask import Flask, render_template, request, redirect
 
 
 
@@ -9,17 +9,12 @@ app = Flask(
 )
 
 # Index page and Rendering Basic Templates
-@app.route('/')
+@app.route('/', methods = ['GET', 'POST'])
 def index():
-  
+  if request.method == "POST":
+    title = request.form.get('title')
+    return redirect('https://meet.jit.si/' + title)
   return render_template('index.html')
-
-
-
-# Creating different routes
-@app.route('/meet')
-def second():
-  return render_template("meet.html")
 
 
 
