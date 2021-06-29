@@ -11,6 +11,7 @@ app = Flask(
 # Index page and Rendering Basic Templates
 @app.route('/')
 def index():
+  
   return render_template('index.html')
 
 

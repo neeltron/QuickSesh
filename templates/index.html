@@ -5,6 +5,9 @@
     </title>
   </head>
   <body>
-    Hey there, feel free to use this starter kit for your Flask Project!
+    <form method = "post" action = "{{ url_for("index")}}">
+      <input type = "text" name = "title" placeholder = "Title"></input>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
