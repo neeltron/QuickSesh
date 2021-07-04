@@ -5,13 +5,12 @@ import random
 def createLink(title):
   f = open("templates/" + title + ".html", "w")
   code = """
-  
   <html>
   <head>
   <title>{}</title>
   </head>
   <body>
-  <iframe src = "https://meet.jit.si/{}">
+  <iframe src = "https://meet.jit.si/{}" width = "1520" height = "680">
   </iframe>
   </body>
   </html>
@@ -36,10 +35,15 @@ def index():
     print(db[str(id)])
     createLink(title)
     return render_template(db[str(id)]+'.html')
-    
   return render_template('index.html', obj = db)
 
 
+
+@app.route('/join', methods = ['GET', 'POST'])
+def join():
+  title = request.args.get('title')
+  if title != None:
+    return render_template(str(title)+'.html')
 
 if __name__ == '__main__':
   # Run the Flask app
