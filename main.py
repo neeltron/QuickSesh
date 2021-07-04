@@ -29,6 +29,7 @@ app = Flask(
 # Index page and Rendering Basic Templates
 @app.route('/', methods = ['GET', 'POST'])
 def index():
+  db.clear()
   if request.method == "POST":
     id = random.randint(0, 1000)
     title = request.form.get('title')
