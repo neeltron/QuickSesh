@@ -2,6 +2,22 @@ from flask import Flask, render_template, request, redirect
 from replit import db
 import random
 
+def createLink(title):
+  f = open("templates/" + title + ".html", "w")
+  code = """
+  
+  <html>
+  <head>
+  <title>{}</title>
+  </head>
+  <body>
+  <iframe src = "https://meet.jit.si/{}">
+  </iframe>
+  </body>
+  </html>
+  """.format(title, title)
+  f.write(code)
+
 
 
 app = Flask(
@@ -18,7 +34,9 @@ def index():
     title = request.form.get('title')
     db[str(id)] = title
     print(db[str(id)])
-    return redirect('https://meet.jit.si/'+db[str(id)])
+    createLink(title)
+    return render_template(db[str(id)]+'.html')
+    
   return render_template('index.html', obj = db)
 
 
