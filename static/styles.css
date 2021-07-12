@@ -1,12 +1,12 @@
 body {
   background: url('bg2.png');
   background-repeat: no-repeat;
-  background-size: 100% 380%;
+  background-size: 100% 9300%;
 }
 
 #heading {
   position: absolute;
-  top: 20%;
+  top: 22%;
   left: 34%;
   right: 34%;
   font-family: Roboto Condensed;
@@ -21,7 +21,7 @@ body {
   position: absolute;
   left: 30%;
   right: 30%;
-  top: 30%;
+  top: 35%;
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
@@ -37,7 +37,7 @@ body {
   height: 40px;
   left: 20%;
   right: 20%;
-  top: 40%;
+  top: 45%;
   border: 2px solid #424242;
   box-sizing: border-box;
 }
@@ -48,7 +48,7 @@ body {
   height: 40px;
   left: 74%;
   right: 26%;
-  top: 39%;
+  top: 44%;
   border: 2px solid #424242;
   box-sizing: border-box;
   background-color: transparent;
@@ -58,7 +58,7 @@ body {
   position: absolute;
   left: 30%;
   right: 30%;
-  top: 42%;
+  top: 52%;
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
@@ -72,7 +72,7 @@ body {
   height: 40px;
   left: 20%;
   right: 20%;
-  top: 51%;
+  top: 61%;
   border: 2px solid #424242;
   box-sizing: border-box;
 }
@@ -83,7 +83,7 @@ body {
   height: 40px;
   left: 74%;
   right: 26%;
-  top: 50%;
+  top: 60%;
   border: 2px solid #424242;
   box-sizing: border-box;
   background-color: transparent;
