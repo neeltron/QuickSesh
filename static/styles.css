@@ -44,7 +44,7 @@ body {
 
 #submit1 {
   position: absolute;
-  width: 6.5%;
+  width: 100px;
   height: 40px;
   left: 74%;
   right: 26%;
@@ -79,7 +79,7 @@ body {
 
 #submit2 {
   position: absolute;
-  width: 6.5%;
+  width: 100px;
   height: 40px;
   left: 74%;
   right: 26%;
