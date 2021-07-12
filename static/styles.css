@@ -1,5 +1,17 @@
 body {
   background: url('bg2.png');
   background-repeat: no-repeat;
-  background-size: 100% 220%;
+  background-size: 100% 260%;
+}
+
+#heading {
+  position: absolute;
+  top: 20%;
+  left: 36%;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 76px;
+  color: #424242;
 }
