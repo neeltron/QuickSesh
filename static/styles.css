@@ -7,7 +7,8 @@ body {
 #heading {
   position: absolute;
   top: 20%;
-  left: 36%;
+  left: 34%;
+  right: 34%;
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
