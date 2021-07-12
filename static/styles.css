@@ -1,7 +1,7 @@
 body {
   background: url('bg2.png');
   background-repeat: no-repeat;
-  background-size: 100% 260%;
+  background-size: 100% 300%;
 }
 
 #heading {
@@ -14,5 +14,19 @@ body {
   font-weight: normal;
   font-size: 45px;
   line-height: 76px;
+  color: #424242;
+}
+
+#heading4 {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 30%;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 47px;
+  text-align: center;
   color: #424242;
 }
