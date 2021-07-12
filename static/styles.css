@@ -12,7 +12,7 @@ body {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 45px;
+  font-size: 3vw;
   line-height: 76px;
   color: #424242;
 }
@@ -25,7 +25,7 @@ body {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.4vw;
   line-height: 47px;
   text-align: center;
   color: #424242;
@@ -62,7 +62,7 @@ body {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.4vw;
   line-height: 47px;
 }
 
