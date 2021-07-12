@@ -1,7 +1,9 @@
 body {
-  background: url('bg2.png');
-  background-repeat: no-repeat;
-  background-size: 100% 9300%;
+  background: url('bg2.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #heading {
@@ -12,7 +14,7 @@ body {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 3vw;
+  font-size: 45px;
   line-height: 76px;
   color: #424242;
 }
@@ -25,7 +27,7 @@ body {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.4vw;
+  font-size: 20px;
   line-height: 47px;
   text-align: center;
   color: #424242;
@@ -62,7 +64,7 @@ body {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.4vw;
+  font-size: 20px;
   line-height: 47px;
 }
 
@@ -87,4 +89,42 @@ body {
   border: 2px solid #424242;
   box-sizing: border-box;
   background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  #heading4 {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 52%;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    color: #424242;
+  }
+  #heading42 {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 35%;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    color: #424242;
+  }
+  #heading {
+    position: absolute;
+    top: 22%;
+    left: 24%;
+    right: 24%;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #424242;
+  }
 }
