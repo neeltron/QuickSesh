@@ -43,7 +43,9 @@ def index():
       db[str(id)] = title
       print(db[str(id)])
       createLink(title)
-      return render_template(db[str(id)]+'.html')
+      return render_template(db[str(id)] + '.html')
+    else:
+      return render_template(title + '.html')
   return render_template('index.html', obj = db)
 
 
