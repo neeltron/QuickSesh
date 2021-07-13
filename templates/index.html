@@ -21,7 +21,9 @@
       <input type = "text" name = "title" placeholder = "Topic/Name" id = "input1" list = "browsers" autocomplete="off"></input>
       <datalist id="browsers">
         {% for i in obj: %}
+        {% if obj[i]!= "": %}
         <a href = https://letsdosome.tech/join?title={{ obj[i] }}><option value="{{obj[i]}}"></a>
+        {% endif %}
         {% endfor %}
       </datalist>
       <button id = "submit1">join</button>
