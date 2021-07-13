@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
     <script type="text/javascript">
+        var i = 0;
         function myFunction() {
+          console.log("it works");
+          if(i%2==0) {
             document.body.style.backgroundImage = "url(static/bgdark.png)";
             document.getElementById("heading").style.color = "#ECECEC";
             document.getElementById("heading4").style.color = "#ECECEC";
@@ -24,6 +27,25 @@
             document.getElementById("input2").style.border = "2px solid #ECECEC";
             document.getElementById("input1").style.color = "#ECECEC";
             document.getElementById("input2").style.color = "#ECECEC";
+          }
+          else {
+            document.body.style.backgroundImage = "url(static/bg2.png)";
+            document.getElementById("heading").style.color = "#424242";
+            document.getElementById("heading4").style.color = "#424242";
+            document.getElementById("heading42").style.color = "#424242";
+            document.getElementById("submit1").style.border = "2px solid #424242";
+            document.getElementById("submit2").style.border = "2px solid #424242";
+            document.getElementById("submit1").style.color = "#424242";
+            document.getElementById("submit2").style.color = "#424242";
+            document.getElementById("input1").style.background = "#ffffff";
+            document.getElementById("input2").style.background = "#ffffff";
+            document.getElementById("input1").style.border = "2px solid #424242";
+            document.getElementById("input2").style.border = "2px solid #424242";
+            document.getElementById("input1").style.color = "#424242";
+            document.getElementById("input2").style.color = "#424242";
+          }
+          i++;
+          console.log(i);
         }
     </script>
   </head>
