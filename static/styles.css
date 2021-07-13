@@ -95,6 +95,9 @@ body {
 }
 
 #lightdark {
+  background-image: url("light.png");
+  background-size:contain;
+  background-repeat: no-repeat;
   position: absolute;
   width: 5%;
   height: 5%;
