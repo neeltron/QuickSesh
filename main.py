@@ -1,22 +1,25 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request
 from replit import db
 import random
 
 def createLink(title):
-  f = open("templates/" + title + ".html", "w")
-  code = """
-  <html>
-  <head>
-  <title>{}</title>
-  </head>
-  <body>
-  <a href = "https://letsdosome.tech">Back</a>
-  <iframe src = "https://meet.jit.si/{}" width = "1520" height = "680">
-  </iframe>
-  </body>
-  </html>
-  """.format(title, title)
-  f.write(code)
+  if title == "index" or title == "":
+    print("you can't hack us, ha!")
+  else:
+    f = open("templates/" + title + ".html", "w")
+    code = """
+    <html>
+    <head>
+    <title>{}</title>
+    </head>
+    <body>
+    <a href = "https://letsdosome.tech">Back</a>
+    <iframe src = "https://meet.jit.si/{}" width = "1520" height = "680">
+    </iframe>
+    </body>
+    </html>
+    """.format(title, title)
+    f.write(code)
 
 
 
