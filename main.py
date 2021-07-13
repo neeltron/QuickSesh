@@ -10,7 +10,7 @@ def createLink(title):
     code = """
     <html>
     <head>
-    <title>QuickSesh | {}</title>
+    <title>{}</title>
     </head>
     <body>
     <a href = "https://letsdosome.tech">Back</a>
