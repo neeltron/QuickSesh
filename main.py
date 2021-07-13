@@ -35,10 +35,15 @@ def index():
   if request.method == "POST":
     id = random.randint(0, 1000)
     title = request.form.get('title')
-    db[str(id)] = title
-    print(db[str(id)])
-    createLink(title)
-    return render_template(db[str(id)]+'.html')
+    flag = 0
+    for i in db:
+      if db[i] == title:
+        flag = 1
+    if flag == 0:
+      db[str(id)] = title
+      print(db[str(id)])
+      createLink(title)
+      return render_template(db[str(id)]+'.html')
   return render_template('index.html', obj = db)
 
 
