@@ -13,7 +13,7 @@ def createLink(title):
     <title>{}</title>
     </head>
     <body>
-    <a href = "https://letsdosome.tech">Back</a>
+    <a href = "https://quicksesh.co/">Back</a>
     <iframe src = "https://meet.jit.si/{}" width = "1520" height = "680">
     </iframe>
     </body>
