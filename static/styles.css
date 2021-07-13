@@ -91,6 +91,14 @@ body {
   background-color: transparent;
 }
 
+#lightdark {
+  position: absolute;
+  width: 180px;
+  height: 74px;
+  left: 60px;
+  top: 60px;
+}
+
 @media screen and (max-width: 600px) {
   #heading4 {
     position: absolute;
