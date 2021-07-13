@@ -16,16 +16,14 @@
     <center>
     <h1 id = "heading"><b>Welcome to QuickSesh!</b></h1>
     <h4 id = "heading4">Need some folks to study with? Join an existing study session below:</h4>
-    <!--
-    <ul>
-      {% for i in obj: %}
-      <li><a href = https://letsdosome.tech/join?title={{ obj[i] }}>{{obj[i]}}</a></li>
-      {% endfor %}
-    </ul>
-    -->
     <h4 id = "heading42">Create a new study session here!</h4>
     <form method = "post" action = "{{ url_for("index")}}">
-      <input type = "text" name = "title" placeholder = "Topic/Name" id = "input1"></input>
+      <input type = "text" name = "title" placeholder = "Topic/Name" id = "input1" list = "browsers" autocomplete="off"></input>
+      <datalist id="browsers">
+        {% for i in obj: %}
+        <a href = https://letsdosome.tech/join?title={{ obj[i] }}><option value="{{obj[i]}}"></a>
+        {% endfor %}
+      </datalist>
       <button id = "submit1">join</button>
     </form>
     <form method = "post" action = "{{ url_for("index")}}">
