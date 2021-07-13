@@ -93,10 +93,10 @@ body {
 
 #lightdark {
   position: absolute;
-  width: 180px;
-  height: 74px;
-  left: 60px;
-  top: 60px;
+  width: 5%;
+  height: 5%;
+  left: 20%;
+  top: 20%;
 }
 
 @media screen and (max-width: 600px) {
