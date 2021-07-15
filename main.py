@@ -14,9 +14,9 @@ def createLink(title):
     <link href="../static/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-    <a href = "https://quicksesh.co/">Back</a>
     <iframe src = "https://meet.jit.si/{}" width = "1520" height = "680">
     </iframe>
+    <a href = "https://quicksesh.co/"><button id = "submit3">Leave</button></a>
     </body>
     </html>
     """.format(title, title)
