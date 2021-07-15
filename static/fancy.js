@@ -1,7 +1,7 @@
 var i = 0;
 function myFunction() {
   console.log("it works");
-  if(i%2==0) {
+  if(i%2==1) {
     document.body.style.backgroundImage = "url(static/bg2.png)";
     document.getElementById("lightdark").style.backgroundImage = "url(static/light.png)";
     document.getElementById("heading").style.color = "#424242";
