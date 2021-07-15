@@ -1,6 +1,6 @@
-# Flask Starter Kit
+# QuickSesh!
 
-This is a starter pack for beginners, so they can get started with Flask! Go ahead and follow the installation steps below and feel free to use it!
+An online tool to create or join random study sessions, based on Jitsi Meet.
 
 ## Installation
 + Clone this repository:
