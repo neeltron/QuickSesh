@@ -11,6 +11,7 @@ def createLink(title):
     <html>
     <head>
     <title>{}</title>
+    <link href="../static/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
     <a href = "https://quicksesh.co/">Back</a>
