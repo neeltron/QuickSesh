@@ -14,6 +14,11 @@ pip install Flask
 
 Alternatively, you can run it on <a href = "https://replit.com/@neeltron/QuickSesh">repl.it</a>.
 
+## Relevant Links
+Live: https://quicksesh.co
+Replit: https://replit.com/@neeltron/QuickSesh
+Github: https://github.com/neeltron
+
 ## References
 
 + Flask Tutorial: https://nickymarino.com/2021/04/13/create-python-web-apps-with-flask-and-replit/
