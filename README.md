@@ -5,14 +5,14 @@ This is a starter pack for beginners, so they can get started with Flask! Go ahe
 ## Installation
 + Clone this repository:
 ```
-git clone https://github.com/neeltron/Flask-Starter-Kit.git
+git clone https://github.com/neeltron/QuickSesh.git
 ```
 + Install Flask using pip:
 ```
 pip install Flask
 ```
 
-Alternatively, you can run it on <a href = "https://replit.com/@neeltron/Flask-Starter-Kit">repl.it</a>.
+Alternatively, you can run it on <a href = "https://replit.com/@neeltron/QuickSesh">repl.it</a>.
 
 ## References
 
