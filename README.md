@@ -17,7 +17,7 @@ Alternatively, you can run it on <a href = "https://replit.com/@neeltron/QuickSe
 ## Relevant Links
 + Live version: https://quicksesh.co
 + Replit: https://replit.com/@neeltron/QuickSesh
-+ Github: https://github.com/neeltron
++ Github: https://github.com/neeltron/QuickSesh
 
 ## References
 
