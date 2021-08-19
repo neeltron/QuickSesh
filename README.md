@@ -1,6 +1,6 @@
 # QuickSesh!
 
-An online tool to create or join random study sessions, based on Jitsi Meet. bruh.
+An online tool to create or join random study sessions, based on Jitsi Meet.
 
 ## Installation
 + Clone this repository:
